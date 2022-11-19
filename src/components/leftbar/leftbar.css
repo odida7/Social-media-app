@@ -1,0 +1,54 @@
+
+.leftbar {
+        flex: 2;
+        position: sticky;
+        top: 80px;
+        height: calc(100vh - 80px);
+        overflow: scroll;
+       background-color: white;
+         border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        .container {
+            padding: 20px;
+            border-radius: 10px;
+        }
+            hr {
+                margin: 20px 0px;
+                border: none;
+                height: 0.5px;
+                background-color: black;
+            }
+
+            .menu {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+                span {
+                    font-size: 12px;
+                }
+
+                .user {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+                   
+                .item {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+                    .item>img {
+                        width: 2.5rem;
+                        height: 2.5rem;
+                    }
+
+                    span {
+                        font-size: 14px;
+                    }

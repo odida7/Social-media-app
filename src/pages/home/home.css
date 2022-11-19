@@ -1,0 +1,9 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+
+.homefile{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,108 @@
+.share {
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+.sharetop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.sharetop>a>img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.shareinput {
+   border: none;
+    outline: none;
+    font-size: 15px;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 50px;
+    background: transparent;
+}
+
+.hr-s {
+    width: 90%;
+    height: 0.1px;
+    margin: 15px 30px;
+}
+
+.sharebottom {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.shareicon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.shareicon>svg {
+    font-size: 20px;
+}
+
+.shareicon>span {
+    font-size: 13px;
+}
+
+.sh-button {
+    width: 6.5rem;
+    height: 2rem;
+    position: relative;
+    margin-left: 10rem;
+}
+
+.me {
+    color: blue;
+}
+
+.em {
+    color: goldenrod;
+}
+
+.ta {
+    color: orange;
+}
+
+.lo {
+    color: red;
+}
+
+.preview {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.preview>img {
+    width: 90%;
+    height: 20rem;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.preview>svg {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 1.5rem;
+}

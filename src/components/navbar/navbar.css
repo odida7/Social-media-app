@@ -1,0 +1,85 @@
+.navbar{
+    
+    height: 4rem;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 2rem;
+}
+.leftnav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.logo>a {
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(19, 185, 251);
+    cursor: pointer;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(212, 220, 225);
+    border-radius: 20px;
+    width: 20rem;
+    height: 2rem;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 0.5rem;
+
+}
+
+.search>input {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 17rem;
+}
+
+.rightnav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    
+}
+
+.npic>a {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.userpic{
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}

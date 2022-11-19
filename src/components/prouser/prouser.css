@@ -1,0 +1,105 @@
+.prouser {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.up{
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.np{
+    
+    height: 20rem;
+    object-fit: cover;
+
+}
+.nop {
+    position: absolute;
+    top: 15rem;
+    margin-left: 15rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.nop>span {
+    margin: 0rem 1rem;
+    font-size: 1.5rem;
+}
+
+.no{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid white;
+ 
+}
+
+.down{
+    background-color: white;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconp{
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.ico {
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+}
+
+.ic{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 1rem;
+    gap: 1rem;
+}
+
+.pbutton {
+    width: 4rem;
+    height: 2rem;
+    border: 3px;
+    background: rgb(97, 141, 236);
+    
+    margin-top: 2rem;
+}
+
+.loo {
+    color: rgb(127, 127, 127);
+}
+
+.ebutton {
+    width: 4rem;
+    height: 2rem;
+    border: 3px;
+    background: rgb(14, 15, 16);
+    right: 0.5rem;
+    top: 23.5rem;
+    position: absolute;
+}
+
+.ebutton:hover {  
+    color: rgb(11, 11, 11);  
+}
